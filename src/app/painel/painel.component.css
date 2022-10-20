@@ -1,5 +1,15 @@
 .jumbotron{
+    background: #d5c5d6;
     margin-top: 20px;
-    padding-top: 30px;
+    padding-top: 2 0px;
     padding-bottom: 30px;
+}
+.form-group{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button{
+    padding-top: 10px;
+    padding-right: 30px;
 }
