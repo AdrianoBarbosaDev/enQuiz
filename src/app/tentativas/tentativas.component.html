@@ -1,7 +1,11 @@
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+ <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <i class="material-icons md-36">favorite_border</i> 
       <i class="material-icons md-36">favorite</i> 
       <i class="material-icons md-36">favorite</i>
 
-    
+<img [src]="coracaoCheio"/>
+<img [src]="coracaoCheio"/>
+<img [src]="coracaoCheio"/>  -->
+
+<img *ngFor="let Coracao of coracoes" [src]="Coracao.exibeCoracao()" />
