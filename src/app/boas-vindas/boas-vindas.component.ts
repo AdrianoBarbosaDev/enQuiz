@@ -14,11 +14,15 @@ export class BoasVindasComponent implements OnInit {
  
 
    }
-  //  openDialog(){
-  //   this.dialogRef.open(BoasVindasComponent)
-  // }
+   openDialog(){
+    this.dialogRef.open(BoasVindasComponent)
+  }
 
   ngOnInit(): void {
+  }
+
+  fecharModal():void{
+    this.dialogRef.closeAll()
   }
 
 }
