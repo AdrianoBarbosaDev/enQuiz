@@ -1,14 +1,28 @@
 .jumbotron{
-    background: #d5c5d6;
+    background: #7e7191;
     margin-top: 20px;
-    padding-top: 2 0px;
-    padding-bottom: 30px;
+    padding: 15px;
 }
 .form-group{
     padding-left: 20px;
     padding-right: 20px;
+    resize: false;
+}
+.form-control{
+  resize: none;
 }
 
+.col{
+  font-size: 15px;
+  font: 15px;
+}
+
+.col h6{
+font-size: 20px;
+}
+.col p{
+  font-size: 20px;
+  }
 .button{
     padding-top: 10px;
     padding-right: 30px;
