@@ -10,7 +10,7 @@ import { Frases } from './frases-mock';
 export class PainelComponent implements OnInit,OnDestroy {
 
   public frases:Frase[] = Frases
-  public instrucao:String = "Traduza a frase:"
+  public instrucao:String = "Traduza a palavra:"
   public resposta:String = ""
 
   public rodada:number = 0
